@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Figtree } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ClerkProvider, SignInButton, SignUpButton, Show, UserButton } from "@clerk/nextjs";
-import { shadcn } from "@clerk/ui/themes";
+import { shadcn } from "@clerk/themes";
 import { Button } from "@/components/ui/button";
 
 const figtree = Figtree({subsets:['latin'],variable:'--font-sans'});
