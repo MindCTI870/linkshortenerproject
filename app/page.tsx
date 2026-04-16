@@ -72,10 +72,6 @@ export default function Home() {
     <div className="flex flex-col flex-1">
       {/* Hero */}
       <section className="flex flex-col items-center justify-center gap-8 px-6 py-24 text-center">
-        <div className="inline-flex items-center gap-2 rounded-full border border-border bg-muted px-4 py-1.5 text-sm text-muted-foreground">
-          <HugeiconsIcon icon={ZapIcon} size={14} />
-          <span>Fast, free URL shortening</span>
-        </div>
         <h1 className="max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl">
           Shorten links.{" "}
           <span className="text-muted-foreground">Track every click.</span>
